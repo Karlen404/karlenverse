@@ -11,18 +11,19 @@ import Footer from './components/footer'
 function App() {
   return (
     <div className=' h-full flex justify-center'>
-      <div className="container flex flex-col   gap-4 h-fit w-fit">
+      <div className="container  flex flex-col  gap-4 h-fit w-fit">
         <div className='flex justify-start font-mono font-semibold text-5xl my-10 text-slate-100'>
-          <h3>It's Me., Hi</h3>
+          <h2>It's Me. Hi</h2>
         </div>
         <div className='flex flex-col sm:flex-row justify-center gap-4 '>
           <CardSosmed />
           <CardMe />
         </div>
         <div className='flex flex-col sm:flex-row justify-center gap-4'>
-          <CardSpotify bgColor='bg-[#1D2D44]'/>
-          <CardSpotify2 bgColor='bg-[#3E5C76]'/>
+          <CardSpotify bgColor='bg-[#1D2D44]' />
+          <CardSpotify2 bgColor='bg-[#3E5C76]' />
         </div>
+        
         <div className='flex justify-center my-7'>
           <Footer />
         </div>
